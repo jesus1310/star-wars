@@ -24,4 +24,15 @@ public class NameGenerator
          segundoApellidoCortado = null;
          ciudadNacimientoCortada = null;
     }
+        
+    /**
+     * Método que genera un nombre a partir de los datos pasados por parámetro
+     */
+    public void generateStarWarsName(String primerApellido, String nombre, String segundoApellido, String ciudadNacimiento){
+        primerApellidoCortado = primerApellido.substring(LETRAS_INICIAL,LETRAS_2);
+        nombreCortado = nombre.substring(LETRAS_INICIAL,LETRAS_2);
+        segundoApellidoCortado = segundoApellido.substring(LETRAS_INICIAL,LETRAS_1);
+        ciudadNacimientoCortada = ciudadNacimiento.substring(LETRAS_INICIAL,LETRAS_2);
+        System.out.println(primerApellidoCortado + nombreCortado + " " + segundoApellidoCortado + ciudadNacimientoCortada);
+    }
 }
