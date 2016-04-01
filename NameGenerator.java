@@ -15,17 +15,6 @@ public class NameGenerator
     private String ciudadNacimientoCortada;
 
     /**
-     * Constructor for objects of class NameGenerator
-     */
-    public NameGenerator()
-    {
-         nombreCortado = null;
-         primerApellidoCortado = null;
-         segundoApellidoCortado = null;
-         ciudadNacimientoCortada = null;
-    }
-        
-    /**
      * Método que genera un nombre a partir de los datos pasados por parámetro
      */
     public void generateStarWarsName(String primerApellido, String nombre, String segundoApellido, String ciudadNacimiento){
