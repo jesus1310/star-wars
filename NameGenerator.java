@@ -1,4 +1,3 @@
-
 /**
  * Write a description of class NameGenerator here.
  * 
@@ -7,27 +6,22 @@
  */
 public class NameGenerator
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    private static final int LETRAS_INICIAL = 0;
+    private static final int LETRAS_1 = 2;
+    private static final int LETRAS_2 = 3;
+    private String nombreCortado;
+    private String primerApellidoCortado;
+    private String segundoApellidoCortado;
+    private String ciudadNacimientoCortada;
 
     /**
      * Constructor for objects of class NameGenerator
      */
     public NameGenerator()
     {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+         nombreCortado = null;
+         primerApellidoCortado = null;
+         segundoApellidoCortado = null;
+         ciudadNacimientoCortada = null;
     }
 }
